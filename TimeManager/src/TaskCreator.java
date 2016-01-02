@@ -1,19 +1,13 @@
 
 
 public class TaskCreator {
-
-	/**
-	 * 
-	 */
-	public void addTask() { 
-		// TODO Auto-generated method
+	
+	public Task addTask(String taskName, String taskDate, String taskDecription) { 
+		return new Task(taskName, taskDate, taskDecription);
 	 }
-
-	/**
-	 * 
-	 */
+	
 	public void deleteTask() { 
-		// TODO Auto-generated method
-	 } 
+		
+	} 
 
 }

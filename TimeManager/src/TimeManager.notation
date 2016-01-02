@@ -97,6 +97,40 @@
         <element xsi:nil="true"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0brq8rExEeWPw9j63CcEwA" x="414" y="5"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_M1UhwLFSEeWPw9j63CcEwA" type="3010">
+        <children xmi:type="notation:DecorationNode" xmi:id="_M1VI0LFSEeWPw9j63CcEwA" type="5014"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_M1VI0bFSEeWPw9j63CcEwA" type="8518">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_M1VI0rFSEeWPw9j63CcEwA" y="5"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_M1VI07FSEeWPw9j63CcEwA" type="7011">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_M1VI1LFSEeWPw9j63CcEwA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_M1VI1bFSEeWPw9j63CcEwA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_M1VI1rFSEeWPw9j63CcEwA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1VI17FSEeWPw9j63CcEwA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_M1VI2LFSEeWPw9j63CcEwA" type="7012">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_M1VI2bFSEeWPw9j63CcEwA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_M1VI2rFSEeWPw9j63CcEwA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_M1VI27FSEeWPw9j63CcEwA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1VI3LFSEeWPw9j63CcEwA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_M1VI3bFSEeWPw9j63CcEwA" type="7013">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_M1VI3rFSEeWPw9j63CcEwA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_M1VI37FSEeWPw9j63CcEwA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_M1VI4LFSEeWPw9j63CcEwA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1VI4bFSEeWPw9j63CcEwA"/>
+        </children>
+        <element xmi:type="uml:Class" href="TimeManager.uml#_M1KwwLFSEeWPw9j63CcEwA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1UhwbFSEeWPw9j63CcEwA" x="361" y="119"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_PtsdELFSEeWPw9j63CcEwA" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PtsdEbFSEeWPw9j63CcEwA" showTitle="true"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PtsdE7FSEeWPw9j63CcEwA" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="TimeManager.uml#_M1KwwLFSEeWPw9j63CcEwA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PtsdErFSEeWPw9j63CcEwA" x="561" y="119"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="__WXsUrEwEeWPw9j63CcEwA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="__WXsU7EwEeWPw9j63CcEwA"/>
     </children>
@@ -146,5 +180,15 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0brq9rExEeWPw9j63CcEwA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0brq97ExEeWPw9j63CcEwA"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0brq-LExEeWPw9j63CcEwA"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_PtsdFLFSEeWPw9j63CcEwA" type="StereotypeCommentLink" source="_M1UhwLFSEeWPw9j63CcEwA" target="_PtsdELFSEeWPw9j63CcEwA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_PtsdFbFSEeWPw9j63CcEwA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_PtsdGbFSEeWPw9j63CcEwA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="TimeManager.uml#_M1KwwLFSEeWPw9j63CcEwA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PtsdFrFSEeWPw9j63CcEwA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PtsdF7FSEeWPw9j63CcEwA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PtsdGLFSEeWPw9j63CcEwA"/>
   </edges>
 </notation:Diagram>

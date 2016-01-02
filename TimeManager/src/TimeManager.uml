@@ -20,6 +20,7 @@
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M1KwwLFSEeWPw9j63CcEwA" name="Main"/>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EM1sALExEeWPw9j63CcEwA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EM4vULExEeWPw9j63CcEwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
@@ -43,4 +44,5 @@
   <java:JavaProperty xmi:id="_3Fzu4LExEeWPw9j63CcEwA" base_Property="_oeuwwLExEeWPw9j63CcEwA"/>
   <java:JavaMethod xmi:id="_b1GkgLE2EeWPw9j63CcEwA" base_Operation="_Asn4ILEyEeWPw9j63CcEwA"/>
   <java:JavaMethod xmi:id="_fMhzULE2EeWPw9j63CcEwA" base_Operation="_dDkiwLE2EeWPw9j63CcEwA"/>
+  <java:JavaClass xmi:id="_PtbXULFSEeWPw9j63CcEwA" base_Classifier="_M1KwwLFSEeWPw9j63CcEwA"/>
 </xmi:XMI>
