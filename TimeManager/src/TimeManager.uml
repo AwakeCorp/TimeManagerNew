@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_5hTWYLEwEeWPw9j63CcEwA" name="RootElement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_5nlkkLEwEeWPw9j63CcEwA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="__WVQELEwEeWPw9j63CcEwA" name="TimeManager">
+      <packagedElement xmi:type="uml:Class" xmi:id="_HsRnULExEeWPw9j63CcEwA" name="TaskCreator">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Asn4ILEyEeWPw9j63CcEwA" name="addTask"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_dDkiwLE2EeWPw9j63CcEwA" name="deleteTask"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Lax5YLExEeWPw9j63CcEwA" name="Task">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Q9J80LExEeWPw9j63CcEwA" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_da4o0LExEeWPw9j63CcEwA" name="taskDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_oeuwwLExEeWPw9j63CcEwA" name="taskDecription">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EM1sALExEeWPw9j63CcEwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EM4vULExEeWPw9j63CcEwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+      </profileApplication>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fREuYLExEeWPw9j63CcEwA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fRFVcLExEeWPw9j63CcEwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <java:JavaProject xmi:id="_HLHbALExEeWPw9j63CcEwA" base_Package="__WVQELEwEeWPw9j63CcEwA"/>
+  <java:JavaClass xmi:id="_Kp52ELExEeWPw9j63CcEwA" base_Classifier="_HsRnULExEeWPw9j63CcEwA"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_fReXALExEeWPw9j63CcEwA" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <java:JavaClass xmi:id="_0balMLExEeWPw9j63CcEwA" base_Classifier="_Lax5YLExEeWPw9j63CcEwA"/>
+  <java:JavaProperty xmi:id="_12gqMLExEeWPw9j63CcEwA" base_Property="_Q9J80LExEeWPw9j63CcEwA"/>
+  <java:JavaProperty xmi:id="_2eWtULExEeWPw9j63CcEwA" base_Property="_da4o0LExEeWPw9j63CcEwA"/>
+  <java:JavaProperty xmi:id="_3Fzu4LExEeWPw9j63CcEwA" base_Property="_oeuwwLExEeWPw9j63CcEwA"/>
+  <java:JavaMethod xmi:id="_b1GkgLE2EeWPw9j63CcEwA" base_Operation="_Asn4ILEyEeWPw9j63CcEwA"/>
+  <java:JavaMethod xmi:id="_fMhzULE2EeWPw9j63CcEwA" base_Operation="_dDkiwLE2EeWPw9j63CcEwA"/>
+</xmi:XMI>
