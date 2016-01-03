@@ -6,8 +6,10 @@ public class TaskCreator {
 		return new Task(taskName, taskDate, taskDecription);
 	 }
 	
-	public void deleteTask() { 
-		
+	public void deleteTask(Task obj) { 
+		obj.taskDate = null;
+		obj.taskDecription = null;
+		obj.taskName = null;
 	} 
 
 }

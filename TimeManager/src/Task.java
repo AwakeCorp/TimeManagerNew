@@ -10,7 +10,7 @@ public class Task {
 		this.taskDate = taskDate;
 		this.taskDecription = taskDecription;
 	}
-	
+
 	public String getTaskDecription() {
 	 	 return taskDecription; 
 	}
