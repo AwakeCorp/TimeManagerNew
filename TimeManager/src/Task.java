@@ -34,11 +34,8 @@ public class Task {
 	} 
 	
 	public void showInfoTask(){
-		System.out.println(this.getTaskName() + " " +
-							this.taskDate.get(Calendar.DATE)+"." +
-							this.taskDate.get(Calendar.MONTH)+ "." + 
-							this.taskDate.get(Calendar.YEAR) + " " + 
-							this.getTaskDecription());
+		SimpleDateFormat formatDate = new SimpleDateFormat("d MMMM yyyy ã.");	
+		System.out.println(this.getTaskName() + " " +formatDate.format(taskDate.getTime()) + " "  + this.getTaskDecription());
 	}
 
 }
