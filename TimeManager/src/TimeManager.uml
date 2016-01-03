@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:java="http://www.eclipse.org/papyrus/JAVA/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_5hTWYLEwEeWPw9j63CcEwA" name="RootElement">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_5nlkkLEwEeWPw9j63CcEwA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="__WVQELEwEeWPw9j63CcEwA" name="TimeManager">
       <packagedElement xmi:type="uml:Class" xmi:id="_HsRnULExEeWPw9j63CcEwA" name="TaskCreator">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_Asn4ILEyEeWPw9j63CcEwA" name="addTask"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Asn4ILEyEeWPw9j63CcEwA" name="createTask"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_dDkiwLE2EeWPw9j63CcEwA" name="deleteTask"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Lax5YLExEeWPw9j63CcEwA" name="Task">
@@ -21,6 +21,11 @@
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_M1KwwLFSEeWPw9j63CcEwA" name="Main"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dxaNMLIHEeWoTJZMEE7sMQ" name="Notebook">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_rS-70LIHEeWoTJZMEE7sMQ" name="addTask"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_TubDgLJCEeWoTJZMEE7sMQ" name="removeTask"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_2KP-gLJCEeWoTJZMEE7sMQ" name="showNotebook"/>
+      </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EM1sALExEeWPw9j63CcEwA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EM4vULExEeWPw9j63CcEwA" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/JAVA/1#/"/>
@@ -37,7 +42,6 @@
   </uml:Model>
   <java:JavaProject xmi:id="_HLHbALExEeWPw9j63CcEwA" base_Package="__WVQELEwEeWPw9j63CcEwA"/>
   <java:JavaClass xmi:id="_Kp52ELExEeWPw9j63CcEwA" base_Classifier="_HsRnULExEeWPw9j63CcEwA"/>
-  <ActionLanguage:TextualRepresentation xmi:id="_fReXALExEeWPw9j63CcEwA" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
   <java:JavaClass xmi:id="_0balMLExEeWPw9j63CcEwA" base_Classifier="_Lax5YLExEeWPw9j63CcEwA"/>
   <java:JavaProperty xmi:id="_12gqMLExEeWPw9j63CcEwA" base_Property="_Q9J80LExEeWPw9j63CcEwA"/>
   <java:JavaProperty xmi:id="_2eWtULExEeWPw9j63CcEwA" base_Property="_da4o0LExEeWPw9j63CcEwA"/>
@@ -45,4 +49,8 @@
   <java:JavaMethod xmi:id="_b1GkgLE2EeWPw9j63CcEwA" base_Operation="_Asn4ILEyEeWPw9j63CcEwA"/>
   <java:JavaMethod xmi:id="_fMhzULE2EeWPw9j63CcEwA" base_Operation="_dDkiwLE2EeWPw9j63CcEwA"/>
   <java:JavaClass xmi:id="_PtbXULFSEeWPw9j63CcEwA" base_Classifier="_M1KwwLFSEeWPw9j63CcEwA"/>
+  <java:JavaClass xmi:id="_oxLtcLIHEeWoTJZMEE7sMQ" base_Classifier="_dxaNMLIHEeWoTJZMEE7sMQ"/>
+  <java:JavaMethod xmi:id="_0PwpkLIHEeWoTJZMEE7sMQ" base_Operation="_rS-70LIHEeWoTJZMEE7sMQ"/>
+  <java:JavaMethod xmi:id="_eJdfALJCEeWoTJZMEE7sMQ" base_Operation="_TubDgLJCEeWoTJZMEE7sMQ"/>
+  <java:JavaMethod xmi:id="_7O3u8LJCEeWoTJZMEE7sMQ" base_Operation="_2KP-gLJCEeWoTJZMEE7sMQ"/>
 </xmi:XMI>
