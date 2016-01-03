@@ -1,13 +1,15 @@
-
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
 
 public class Task {
-	public String taskDecription; 
-	public String taskName;
-	public String taskDate;
+	private String taskDecription; 
+	private String taskName;
+	private Calendar taskDate;
 
-	Task(String taskName, String taskDate, String taskDecription){
+	Task(String taskName, int day, int month, int year, String taskDecription){
 		this.taskName = taskName;
-		this.taskDate = taskDate;
+		this.taskDate = Calendar.getInstance();		
+		this.taskDate.set(year, month, day);
 		this.taskDecription = taskDecription;
 	}
 
@@ -23,15 +25,20 @@ public class Task {
 	public void setTaskName(String taskName) { 
 		 this.taskName = taskName; 
 	}
-	public String getTaskDate() {
-	 	 return taskDate; 
+	public Calendar getTaskDate() {
+	 	return taskDate; 
 	}
-	public void setTaskDate(String taskDate) { 
-		 this.taskDate = taskDate; 
+
+	public void setTaskDate(int day, int month, int year) { 
+		this.taskDate.set(year, month, day); 
 	} 
 	
 	public void showInfoTask(){
-		System.out.println(this.getTaskName()+ " " + this.getTaskDate()+ " " + this.getTaskDecription());
+		System.out.println(this.getTaskName() + " " +
+							this.taskDate.get(Calendar.DATE)+"." +
+							this.taskDate.get(Calendar.MONTH)+ "." + 
+							this.taskDate.get(Calendar.YEAR) + " " + 
+							this.getTaskDecription());
 	}
 
 }
