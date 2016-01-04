@@ -34,7 +34,10 @@ public class Notebook {
 	}
 
 	public void setNameNotebook(String nameNotebook) {
-		this.nameNotebook = nameNotebook;
+		this.nameNotebook = nameNotebook;	
+	}
+	
+	public void sortingNotebook(){
 		
 	}
 }
